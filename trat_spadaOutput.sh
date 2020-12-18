@@ -1,0 +1,1 @@
+cut -f1,9,11 /work/sspanno/31_model_evaluation/61_final.tbl | grep -v '^id'| sed 's/\t/--/' | sed 's/^/>/' | sed 's/\t/\n/' > teste.spadafaa
